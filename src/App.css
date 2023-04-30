@@ -1,0 +1,261 @@
+/***    General     ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif
+}
+
+body {
+    margin: 0 auto;
+    background-image: url('assets/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signin a,
+.register a,
+.forgetpassword a{
+    color: #000;
+}
+
+.register, .signin, .forgetpassword{
+    margin:auto;
+    width: 30%;
+}
+
+.forgetpassword form > *{
+    margin: .5em 0;
+}
+
+form label{
+    color: #000;
+}
+.m-5-auto {
+    margin: 5rem auto
+}
+
+.primary-button {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+/***    Landing Page     ***/
+.main-title,
+.main-para {
+    color: #f1f1f1
+}
+
+.main-title {
+    padding-top: 10rem;
+    font-size: 5rem;
+    font-family: 'Fascinate', cursive;
+    text-transform: uppercase
+}
+
+.main-para {
+    font-size: 2.5rem;
+    text-Transform: capitalize
+}
+
+#reg_btn span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#reg_btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#reg_btn:hover span {
+  padding-right: 25px;
+}
+
+#reg_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.quiz{
+    margin:3em 2em 3em 6em;
+    width: 80%;
+}
+/***    Login Page     ***/
+h2 {
+    font-weight: 300
+}
+
+form {
+    display: inline-block;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2rem;
+    margin: 2rem 0 1rem 0
+}
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+}
+
+.right-label {
+    float: right;
+    cursor: pointer
+}
+
+input {
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: .5em 0;
+}
+
+#sub_btn {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+footer p {
+    margin: 0;
+    font-size: .9rem
+}
+
+/***    Register Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+
+/***    Home Page     ***/
+.home-page-title {
+    color: #222
+}
+.log-out{
+   margin-left: auto;
+}
+
+.app {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    margin-top:3em;
+    padding: 1em 0;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    color: brown;
+}
+
+.question-section,
+.answer-section,
+.score-section {
+    text-align: center;
+    margin: 1em;
+}
+
+.question-count span {
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.question-text {
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+.answer-section button{
+    font-size: 1.3em;
+    border: 1px solid brown;
+    color: #fff;
+    background-color: brown;
+    padding: .5em 1em;
+    margin: 0 .5em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.score-section{
+    font-size: 1.3em;
+    color: green;
+}
+
+.answer-section button:hover{
+    background-color: beige;
+    color: #000;
+}
+
+#countdown{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    background: brown;
+    border: 2px solid #fff;
+}
+
+
+.progress{
+    width: 15em;
+    height: 3em;
+    padding: 1em 1em;
+    background-color: green;
+    color: #fff;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar{
+    color: #000;
+    background-color: #fff;
+    margin-bottom: 3em;
+}
+
+.navbar a{
+    color: #000;
+}
